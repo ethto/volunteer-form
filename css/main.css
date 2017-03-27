@@ -18,3 +18,7 @@ fieldset {
 hr {
   border-color: #70ad55;
 }
+
+.optional {
+  color: #70ad55;
+}
