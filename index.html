@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Boob</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700" rel="stylesheet">
+</head>
+<body>
+
+  <section>
+
+    <header>
+      <h1>Apply to be a tree planter</h1>
+      <p>Trees are one of the world's most precious renewable resources—we need your help to renew the ecosystem.</p>
+    </header>
+
+    <form class="gutter-1-2" method="POST" action="http://formspree.io/estherfjohnson@gmail.com">
+      <fieldset>
+        <legend class="push">Personal Details</legend>
+        <div class="grid">
+          <div class="push unit">
+            <label for="full-name">Full name</label>
+            <input id="full-name">
+          </div>
+          <div class="push unit">
+            <label for="name">What should we call you?</label>
+            <input id="name">
+          </div>
+          <div class="push unit">
+            <label for="date">Date of birth</label>
+            <input type="date" id="date">
+          </div>
+          <div class="push unit">
+            <label for="shirt">T-shirt size</label>
+            <select class="shirt" name="shirt">
+              <option>small</option>
+              <option>medium</option>
+              <option>large</option>
+            </select>
+          </div>
+          <div class="push unit">
+            <label for="email">Email</label>
+            <input type="email" id="email">
+          </div>
+          <div class="push unit">
+            <label for="tel">Phone number <span class="optional italic">(optional)</span></label>
+            <input type="tel" id="tel">
+          </div>
+        </div>
+      </fieldset>
+
+      <hr>
+
+      <fieldset>
+        <legend class="push">Address</legend>
+        <div class="grid">
+          <div class="push unit">
+            <label for="address">Street address</label>
+            <input id="address">
+          </div>
+          <div class="push unit">
+            <label for="city">City</label>
+            <input id="city">
+          </div>
+          <div class="push unit">
+            <label for="province">Province</label>
+            <select id="province">
+              <option>Ontario</option>
+              <option>Quebec</option>
+            </select>
+          </div>
+          <div class="push unit">
+            <label for="postal-code">Postal code</label>
+            <input type="text" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]" id="postal-code">
+          </div>
+
+          <hr>
+
+        </div>
+      </fieldset>
+
+    </form>
+  </section>
+</body>
+</html>
