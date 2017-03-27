@@ -7,7 +7,7 @@ header {
   color: #fff;
 }
 
-input, select {
+input, select, {
   border-color: #6e8c62;
 }
 
@@ -21,4 +21,8 @@ hr {
 
 .optional {
   color: #70ad55;
+}
+
+h1 {
+  margin: 0;
 }
