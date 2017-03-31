@@ -7,7 +7,15 @@ header {
   color: #fff;
 }
 
-input, select {
+input, select, textarea {
+  border-color: #6e8c62;
+}
+
+[type="radio"] + label::before {
+  border-color: #6e8c62;
+}
+
+[type="checkbox"] + label::before {
   border-color: #6e8c62;
 }
 
@@ -28,5 +36,19 @@ h1 {
 }
 
 .checkbox {
+  border-color: #6e8c62;
+}
+
+footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  background-color: #6e8c62;
   border-color: #6e8c62;
 }
