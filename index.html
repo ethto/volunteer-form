@@ -59,25 +59,25 @@
 
       <hr>
 
-      <fieldset>
+      <fieldset class="push">
         <legend class="push giga pad-t pad-b-1-2">Address</legend>
         <div class="grid">
           <div class="push unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="address">Street address</label>
             <input id="address">
           </div>
-          <div class="push unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <div class="push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="city">City</label>
             <input id="city">
           </div>
-          <div class="push unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <div class="push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="province">Province</label>
             <select id="province">
               <option value>Select a province</option>
               <option>Nunavut</option>
             </select>
           </div>
-          <div class="push unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <div class="push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="postal-code">Postal code</label>
             <input type="text" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]" id="postal-code">
           </div>
@@ -86,8 +86,8 @@
 
       <hr>
 
-      <fieldset>
-        <legend class="push giga pad-t">What activities are you interested in helping with?</legend>
+      <div class="push">
+        <h2 class="push giga pad-t">What activities are you interested in helping with?</h2>
         <div class="grid">
 
           <div class="a unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
@@ -138,10 +138,10 @@
           </div>
 
         </div>
-      </fieldset>
+      </div>
 
-      <fieldset>
-        <legend class="push giga pad-t">Do you have any experience with the following?</legend>
+      <div class="push-2">
+        <h2 class="push giga pad-t">Do you have any experience with the following?</h2>
         <div class="grid">
 
           <div class="a unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
@@ -172,7 +172,7 @@
             </div>
           </div>
 
-            <div class="b unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <div class="b unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
 
             <div>
               <input type="checkbox" id="bush">
@@ -200,12 +200,12 @@
             </div>
           </div>
         </div>
-      </fieldset>
+      </div>
 
       <hr>
 
-      <fieldset>
-        <legend class="push giga pad-t">Do you have a valid driver's license?</legend>
+      <div>
+        <h2 class="push giga pad-t">Do you have a valid driver's license?</h2>
 
         <input type="radio" id="yes" name="drive">
         <label class="push-r" for="yes">Yes</label>
@@ -213,20 +213,20 @@
         <input type="radio" id="no" name="drive">
         <label for="no">No</label>
 
-      </fieldset>
+      </div>
 
-      <fieldset>
-        <legend class="push giga pad-t">Do you have a pick-up truck you'd be willing to use?</legend>
+      <div>
+        <h2 class="push giga pad-t">Do you have a pick-up truck you'd be willing to use?</h2>
 
         <input type="radio" id="yah" name="drive">
         <label class="push-r" for="yah">Yes</label>
 
         <input type="radio" id="nah" name="drive">
         <label for="nah">No</label>
-      </fieldset>
+      </div>
 
-      <fieldset>
-        <legend class="push giga pad-t">Do you have up-to-date first-aid certification?</legend>
+      <div class="push-2">
+        <h2 class="push giga pad-t">Do you have up-to-date first-aid certification?</h2>
 
         <input type="radio" id="yup" name="drive">
         <label class="push-r" for="yup">Yes</label>
@@ -234,25 +234,24 @@
         <input type="radio" id="nope" name="drive">
         <label for="nope">No</label>
 
-      </fieldset>
+      </div>
 
       <hr>
 
-      <fieldset>
-        <legend class="push giga pad-t">Please let us know any comments or questions you may have.</legend>
+      <div>
+        <h2 class="push giga pad-t">Please let us know any comments or questions you may have.</h2>
         <div>
-          <label for="message"></label>
+          <label for="message">
+          </label>
           <textarea id="message" rows="8"></textarea>
         </div>
-
-      </fieldset>
+      </div>
 
       <hr>
 
       <div class="text-center">
-        <button class="push-2" type="submit" name="submit">Apply</button>
+        <button class="push-2" type="submit">Apply</button>
       </div>
-
 
     </form>
 
