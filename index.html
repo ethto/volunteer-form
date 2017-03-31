@@ -5,8 +5,8 @@
   <title>Boob</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700" rel="stylesheet">
 </head>
@@ -14,10 +14,10 @@
 
   <section>
 
-    <header class="pad-t pad-b-1-2 push">
+    <header class="pad-t pad-b push">
       <div class="words gutter-1-2">
         <h1 class="push-1-2">Apply to be a tree planter</h1>
-        <p class="mega">Trees are one of the world's most precious renewable resources—we need your help to renew the ecosystem.</p>
+        <p class="mega pad-b-1-2">Trees are one of the world's most precious renewable resources—we need your help to renew the ecosystem.</p>
       </div>
     </header>
 
@@ -26,14 +26,14 @@
         <legend class="push giga">Personal details</legend>
         <div class="grid">
           <div class=" pad-t-1-4 push unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-            <label for="full-name">Full name</label>
+            <label class="push-1-4" for="full-name">Full name</label>
             <input id="full-name">
             <p class="italic micro">Your full legal name, for insurance purposes, e.g. "Elizabeth Bradley".</p>
           </div>
           <div class="push unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-            <label for="name">What should we call you?</label>
+            <label class="push-1-4" for="name">What should we call you?</label>
             <input id="name">
-            <p class="italic micro">What all your friends call you, e.g. "Liz".</p>
+            <p class="italic micro">What all your friends call you, e.g. “Liz”.</p>
           </div>
           <div class="push unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="date">Date of birth</label>
@@ -41,7 +41,7 @@
           </div>
           <div class="push unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="shirt">T-shirt size</label>
-            <select class="shirt" name="shirt">
+            <select id="shirt" name="shirt">
               <option value>Select a t-shirt size</option>
               <option>Straight-cut: XS</option>
             </select>
@@ -60,7 +60,7 @@
       <hr>
 
       <fieldset>
-        <legend class="push giga">Address</legend>
+        <legend class="push giga pad-t pad-b-1-2">Address</legend>
         <div class="grid">
           <div class="push unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="address">Street address</label>
